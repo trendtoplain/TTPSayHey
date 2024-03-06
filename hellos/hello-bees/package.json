@@ -1,0 +1,22 @@
+{
+  "name": "pl-hello-bees",
+  "version": "1.0.2",
+  "description": "bees says hey buddy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trendtoplain/TTPSayHey.git",
+    "directory": "hellos/hello-bees"
+  },
+  "main": "index.js",
+  "author": "trendtoplain",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cowsay": "1.5.0",
+    "pl-hello-armadillo": "^1.0.0",
+    "pl-hello-banana": "^1.0.0",
+    "pl-hello-bearface": "^1.0.0"
+  }
+}
